@@ -1,9 +1,6 @@
-function rot13 (str)
-
-var str = "ko";
-
-for(var i = 0; i<str.length; i++){
-
-    if(str[i]===str[i].charCodeAt())
-
+var arr = [];
+for (var i = 0; i < 7; i++) {
+  arr.push.math.floor(Math.random()*7);
 }
+
+console.log (arr)

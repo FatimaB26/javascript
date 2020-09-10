@@ -7,5 +7,7 @@ function isEven(num) {
 
 }
 
-console.log (isEven(3));
-console.log (isEven(6));
+var arr = [1, 2, 3, 4]
+var arr2 = arr.map(isEven(num))
+
+console.log(arr2);

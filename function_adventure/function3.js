@@ -6,5 +6,5 @@ function sayHello(str) {
 
 }
 
-console.log (sayHello("konexio"))
-console.log (sayHello("Jean"))
+sayHello("konexio")
+sayHello("Jean")

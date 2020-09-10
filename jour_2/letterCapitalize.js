@@ -3,7 +3,7 @@ var sentence = ""
 function letterCapitalize (sentence) {
 
     var sentence = sentence.split (" ");
-    var sentence = sentence.charAt(0)
+    var sentence = sentence
     var sentence = sentence.toUpperCase()
     return sentence
 

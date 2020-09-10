@@ -1,15 +1,15 @@
-function firstFactorial(num) { 
+function firstFactorial(num) {
 
-        var depart = 1;
+    var depart = 1;
 
-      for (i = 2; i <= num; i++) {
+    for (i = 2; i <= num; i++) {
 
-          depart = depart*i
+        depart = depart * i
 
-      }
+    }
 
-      return depart; 
-           
-  }
-     
-  console.log (firstFactorial(4));
+    return depart;
+
+}
+
+console.log(firstFactorial(4));

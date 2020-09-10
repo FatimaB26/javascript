@@ -1,5 +1,3 @@
-var num = Number
-
 function calculateVariable(num) {
 
     console.log (10 + num)

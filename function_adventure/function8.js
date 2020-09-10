@@ -1,4 +1,3 @@
-var num = Number
 function getCalculation(num) {
 
     return 10 + num;

@@ -8,6 +8,9 @@ function isEven(num) {
 }
 
 var arr = [1, 2, 3, 4]
-var arr2 = arr.map(isEven(num))
+var arr2 = arr.map(isEven() {
+    return arr2;
+  });
 
 console.log(arr2);
+

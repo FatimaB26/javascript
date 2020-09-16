@@ -6,8 +6,12 @@ var arr = [{
     surname: 'Craig'
 }]
 
-var arr2 = arr.map(function(firstname,surname) {
-    return str.toString();
-  });
-
-console.log(arr2);
+var arr2 = arr.map(function(currElement, index, arrayInitial) {
+         var nvxObj = {
+             firstName: 'Daniel',
+             surName: currElement.surname,
+             fullname: currElement.firstName + ' ' + currElement.surname
+         }
+         return nvxObj
+     })
+     console.log(arr2)

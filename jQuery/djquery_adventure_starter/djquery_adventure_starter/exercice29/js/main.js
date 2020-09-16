@@ -1,12 +1,16 @@
 $(document).ready(function() {
     $("button.btn.btn-success").click(function() {
 
-    if ($('input').val().length > 5) {
+        var val = $('input').val()
+
+    if (val.length >= 5) {
 
         $('input').addClass('is-valid');
+        $('input').removeClass('is-invalid');
         
     } else {
-        $('input').addClass('is-invalid');  
+        $('input').addClass('is-invalid'); 
+        $('input').removeClass('is-valid'); 
         }
     });
 });
